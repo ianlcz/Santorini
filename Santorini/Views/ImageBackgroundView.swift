@@ -9,17 +9,17 @@ import SwiftUI
 
 struct ImageBackgroundView: View {
     var image: String
-    var maxWidth: CGFloat
 
     var body: some View {
-        Image(image)
-            .resizable()
-            .aspectRatio(contentMode: .fill)
-            .frame(width: maxWidth, height: 274)
-            .edgesIgnoringSafeArea(.top)
+        GeometryReader { proxy in
+            Image(image)
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: proxy.size.width, height: 225)
+        }
     }
 }
 
 #Preview {
-    ImageBackgroundView(image: "bg", maxWidth: 200)
+    ImageBackgroundView(image: "bg")
 }

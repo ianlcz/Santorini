@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7AD91202C4A503B00DB73AE /* TextCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AD911F2C4A503B00DB73AE /* TextCardView.swift */; };
 		E7B75FE62C47B42800CA99F2 /* SantoriniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B75FE52C47B42800CA99F2 /* SantoriniApp.swift */; };
 		E7B75FE82C47B42800CA99F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B75FE72C47B42800CA99F2 /* ContentView.swift */; };
 		E7B75FEA2C47B42B00CA99F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B75FE92C47B42B00CA99F2 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E7AD911F2C4A503B00DB73AE /* TextCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCardView.swift; sourceTree = "<group>"; };
 		E7B75FE22C47B42700CA99F2 /* Santorini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Santorini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B75FE52C47B42800CA99F2 /* SantoriniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantoriniApp.swift; sourceTree = "<group>"; };
 		E7B75FE72C47B42800CA99F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				E7B75FF52C47B94900CA99F2 /* ImageBackgroundView.swift */,
+				E7AD911F2C4A503B00DB73AE /* TextCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				E7B75FF62C47B94900CA99F2 /* ImageBackgroundView.swift in Sources */,
 				E7B75FE82C47B42800CA99F2 /* ContentView.swift in Sources */,
 				E7B75FE62C47B42800CA99F2 /* SantoriniApp.swift in Sources */,
+				E7AD91202C4A503B00DB73AE /* TextCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

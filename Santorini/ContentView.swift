@@ -8,11 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    var color: Color {
+        let red: Double = 12 / 255
+        let green: Double = 95 / 255
+        let blue: Double = 175 / 255
+        return Color(red: red, green: green, blue: blue)
+    }
+
     var body: some View {
-        GeometryReader { proxy in
-            var maxWidth: CGFloat = proxy.size.width
-            ImageBackgroundView(image: "bg", maxWidth: maxWidth)
-        }
+        VStack {
+            ImageBackgroundView(image: "bg")
+            TextCardView(textColor: color)
+        }.ignoresSafeArea(edges: .top)
     }
 }
 
