@@ -11,6 +11,7 @@
 		E7B75FE82C47B42800CA99F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B75FE72C47B42800CA99F2 /* ContentView.swift */; };
 		E7B75FEA2C47B42B00CA99F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B75FE92C47B42B00CA99F2 /* Assets.xcassets */; };
 		E7B75FEE2C47B42B00CA99F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B75FED2C47B42B00CA99F2 /* Preview Assets.xcassets */; };
+		E7B75FF62C47B94900CA99F2 /* ImageBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B75FF52C47B94900CA99F2 /* ImageBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E7B75FE92C47B42B00CA99F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7B75FEB2C47B42B00CA99F2 /* Santorini.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Santorini.entitlements; sourceTree = "<group>"; };
 		E7B75FED2C47B42B00CA99F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7B75FF52C47B94900CA99F2 /* ImageBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		E7B75FE42C47B42700CA99F2 /* Santorini */ = {
 			isa = PBXGroup;
 			children = (
+				E7B75FF42C47B92200CA99F2 /* Views */,
 				E7B75FE52C47B42800CA99F2 /* SantoriniApp.swift */,
 				E7B75FE72C47B42800CA99F2 /* ContentView.swift */,
 				E7B75FE92C47B42B00CA99F2 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				E7B75FED2C47B42B00CA99F2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E7B75FF42C47B92200CA99F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7B75FF52C47B94900CA99F2 /* ImageBackgroundView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7B75FF62C47B94900CA99F2 /* ImageBackgroundView.swift in Sources */,
 				E7B75FE82C47B42800CA99F2 /* ContentView.swift in Sources */,
 				E7B75FE62C47B42800CA99F2 /* SantoriniApp.swift in Sources */,
 			);
