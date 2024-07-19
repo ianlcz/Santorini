@@ -18,6 +18,11 @@ struct ContentView: View {
     var body: some View {
         VStack {
             ImageBackgroundView(image: "bg")
+            Divider()
+                .frame(height: 2)
+                .overlay(color)
+                .padding(EdgeInsets(top: 0, leading: 15, bottom: 0, trailing: 15))
+            OpinionBarView(themeColor: color)
             TextCardView(textColor: color)
         }.ignoresSafeArea(edges: .top)
     }
