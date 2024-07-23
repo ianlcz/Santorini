@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct OpinionBarView: View {
-    var themeColor: Color = .blue
+    var themeColor: Color = .accentColor
 
     var body: some View {
         HStack {
