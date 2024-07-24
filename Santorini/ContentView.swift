@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             // MARK: - HEADER
-            ImageBackgroundView(image: "bg")
+            HeaderView()
 
             Divider()
                 .frame(height: 2)
