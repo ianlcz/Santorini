@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             // MARK: - HEADER
-            HeaderView()
+            Header()
 
             Divider()
                 .frame(height: 2)
@@ -19,13 +19,13 @@ struct ContentView: View {
                 .padding(EdgeInsets(top: 0, leading: 15, bottom: 0, trailing: 15))
 
             // MARK: - BODY
-            OpinionBarView()
-            TextCardView()
+            OpinionBar()
+            TextCard()
 
             Divider()
 
             // MARK: - FOOTER
-            FooterView(labelName: "Je Partage", iconName: "square.and.arrow.up")
+            Footer(labelName: "Je Partage", iconName: "square.and.arrow.up")
         }.ignoresSafeArea(edges: .top)
     }
 }

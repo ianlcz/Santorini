@@ -1,5 +1,5 @@
 //
-//  RoundedRectangleImageView.swift
+//  RoundedRectangleImage.swift
 //  Santorini
 //
 //  Created by Yann Le Coz on 19/07/2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RoundedRectangleImageView: View {
+struct RoundedRectangleImage: View {
     var name: String
 
     var body: some View {
@@ -20,5 +20,5 @@ struct RoundedRectangleImageView: View {
 }
 
 #Preview {
-    RoundedRectangleImageView(name: "photo_1")
+    RoundedRectangleImage(name: "photo_1")
 }
