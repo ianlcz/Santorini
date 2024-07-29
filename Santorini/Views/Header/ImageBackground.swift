@@ -1,5 +1,5 @@
 //
-//  ImageBackgroundView.swift
+//  ImageBackground.swift
 //  Santorini
 //
 //  Created by Yann Le Coz on 17/07/2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ImageBackgroundView: View {
+struct ImageBackground: View {
     var image: String
 
     var body: some View {
@@ -21,5 +21,5 @@ struct ImageBackgroundView: View {
 }
 
 #Preview {
-    ImageBackgroundView(image: "bg")
+    ImageBackground(image: "bg")
 }

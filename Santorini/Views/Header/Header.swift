@@ -1,5 +1,5 @@
 //
-//  HeaderView.swift
+//  Header.swift
 //  Santorini
 //
 //  Created by Yann Le Coz on 24/07/2024.
@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-struct HeaderView: View {
+struct Header: View {
     var body: some View {
         ZStack(alignment: .bottomTrailing) {
-            ImageBackgroundView(image: "bg")
+            ImageBackground(image: "bg")
             HStack(alignment: .bottom) {
                 Text("I 💙 Santorini")
                     .font(.largeTitle)
@@ -31,5 +31,5 @@ struct HeaderView: View {
 }
 
 #Preview {
-    HeaderView()
+    Header()
 }

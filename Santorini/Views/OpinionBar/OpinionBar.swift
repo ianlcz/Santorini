@@ -1,5 +1,5 @@
 //
-//  OpinionBarView.swift
+//  OpinionBar.swift
 //  Santorini
 //
 //  Created by Yann Le Coz on 19/07/2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct OpinionBarView: View {
+struct OpinionBar: View {
     var themeColor: Color = .accentColor
 
     var body: some View {
@@ -25,7 +25,7 @@ struct OpinionBarView: View {
         ScrollView(.horizontal) {
             HStack {
                 ForEach(1..<6) { index in
-                    RoundedRectangleImageView(name: "photo_\(index)")
+                    RoundedRectangleImage(name: "photo_\(index)")
                 }
             }
         }
@@ -33,5 +33,5 @@ struct OpinionBarView: View {
 }
 
 #Preview {
-    OpinionBarView()
+    OpinionBar()
 }
